@@ -27,9 +27,11 @@ a:hover {
 
 
 .container {
-    width: 100%;
+    width: calc(100% - 30px);
     margin-right: auto;
     margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 @media (min-width: 1400px) {
